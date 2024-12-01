@@ -3,5 +3,5 @@ function solution(s) {
     const min = Math.min(...noSpace);
     const max = Math.max(...noSpace);
     
-    return `${min} ${max}`;
+    return min + ' ' + max;
 }
